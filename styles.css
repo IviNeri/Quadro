@@ -1,0 +1,52 @@
+/* Centralizar a página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Container principal */
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configuração da caixa */
+.box {
+    height: 400px;
+    width: 400px;
+    border: 5px solid #333; /* Borda */
+    margin: 20px; /* Margem */
+    padding: 15px; /* Preenchimento interno */
+    background-color: #fff; /* Fundo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    text-align: center; /* Centralizar conteúdo */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilo para a imagem */
+.image {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto; /* Centraliza a imagem */
+}
+
+/* Estilo para o título */
+.title {
+    font-size: 1.5em;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Estilo para o texto */
+.description {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+}
